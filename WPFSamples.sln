@@ -334,6 +334,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elements", "Elements", "{31169629-79F4-4F2C-B5F1-86C58CD41B1F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{32F818A1-F4A9-4147-94EC-C96E39C8C3AB}"
+	ProjectSection(SolutionItems) = preProject
+		OK.txt = OK.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logical and Visual Tree", "Logical and Visual Tree", "{80E4C3F1-B68D-4176-ACF6-7F7E5BEB0240}"
 EndProject

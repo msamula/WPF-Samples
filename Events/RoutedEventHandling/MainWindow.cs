@@ -20,11 +20,11 @@ namespace RoutedEventHandling
 
         private void HandleClick(object sender, RoutedEventArgs args)
         {
-            var fe = (FrameworkElement) sender;
+            var fe = (FrameworkElement)sender;
             _eventstr.Append("Event handled by element named ");
             _eventstr.Append(fe.Name);
             _eventstr.Append("\n");
-            var fe2 = (FrameworkElement) args.Source;
+            var fe2 = (FrameworkElement)args.Source;
             _eventstr.Append("Event originated from source element of type ");
             _eventstr.Append(args.Source.GetType());
             _eventstr.Append(" with Name ");
