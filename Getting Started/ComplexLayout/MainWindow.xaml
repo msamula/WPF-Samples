@@ -13,7 +13,7 @@
                 Background="LightYellow">Some text at the bottom of the page.</TextBlock>
         <TextBlock DockPanel.Dock="Left"
                 Background="Lavender">Some More Text</TextBlock>
-        <DockPanel Background="Bisque">
+        <DockPanel DockPanel.Dock="Right" Background="Bisque">
             <StackPanel DockPanel.Dock="Top">
                 <Button HorizontalAlignment="Left" 
                 Height="30px"
